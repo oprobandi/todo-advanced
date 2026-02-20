@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.text {
+  flex: 1;
+  font-size: 16px;
+}
+
+.completed {
+  flex: 1;
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.delete {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete:hover {
+  background: #c82333;
+}
